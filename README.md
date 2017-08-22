@@ -1,2 +1,2 @@
 # JQuery-remider
-This repository  remind Jquery functions and its properties.
+This repository  works as a reminder of Jquery functions and its properties.
