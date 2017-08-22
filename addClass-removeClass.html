@@ -3,8 +3,10 @@
     $("HTMLtype").addClass("animated bounce");
     $(".cssclass").addClass("animated shake");
     $("#id").addClass("animated fadeOut");
+    $("HTMLtype .cssclass #id").removeClass("class to remove from target");
   });
 </script>
+<h2>addClass</h2>
 <ol>
   <li>addClass("animated bounce")</li>
   <li>addClass("animated shake")</li>
@@ -13,6 +15,13 @@
   <li>addClass("any CSS Class")</li>
   <li>addClass("")</li>
 </ol>
+
+<h2>removeClass</h2>
+<ol>
+  <li>remove
+    Class("")</li>
+</ol>
+
 
 
 <p> Reference documentation: <a href="https://api.jquery.com/addclass/"> JQuery addClass </a></p>
